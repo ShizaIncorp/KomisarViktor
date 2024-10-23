@@ -10,7 +10,7 @@ month = 0
 while total_money > spend:
     total_money = total_money - spend
     total_money += salary
-    spend = (1+increase) * spend
+    spend = (1 + increase) * spend
     month += 1
 
 print("Количество месяцев, которое можно протянуть без долгов:", month)
