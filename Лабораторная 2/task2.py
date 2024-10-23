@@ -7,7 +7,7 @@ debt = 0
 
 for i in range(months):
     total_spend = salary - spend
-    spend = (1+increase) * spend
+    spend = (1 + increase) * spend
     debt += total_spend
 
 money_capital = -debt
