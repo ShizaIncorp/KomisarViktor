@@ -12,4 +12,4 @@ for i in range(months):
 
 money_capital = - debt
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital+1))
