@@ -7,9 +7,9 @@ debt = 0
 
 for i in range(months):
     total_spend = salary - spend
-    spend = (1 + increase) * spend
+    spend = (1+increase) * spend
     debt += total_spend
 
-money_capital = - debt
+money_capital = -debt
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital + 1))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital + 1))
