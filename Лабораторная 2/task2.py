@@ -12,4 +12,9 @@ for i in range(months):
 
 money_capital = -debt
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital + 1))
+if money_capital % 1 == 0:
+    money_capital = money_capital
+else:
+    money_capital += 1
+
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
