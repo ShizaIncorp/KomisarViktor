@@ -1,14 +1,14 @@
 # TODO Напишите функцию для поиска индекса товара
-from operator import index
 
 
 def find_product(list, product):
     index_product = 0
-    for _ in list:
-        if _ == product:
+    for i in list:
+        if i == product:
             return index_product
         index_product += 1
     return None
+
 
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
 
