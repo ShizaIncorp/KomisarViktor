@@ -4,7 +4,6 @@ import json
 
 # TODO решите задачу
 def task() -> float:
-    a = os.listdir()
     way_json_obj = 'input.json'
     with open(way_json_obj) as f:
         pyton_obj = json.load(f)
